@@ -1,0 +1,12 @@
+/* Estilos propios que complementan Bootstrap */
+body { background-color: #f4f6f9; }
+.stat-card { border: 0; border-left: 4px solid var(--bs-primary); }
+.stat-card .display-6 { font-weight: 600; }
+.stat-card.success { border-left-color: var(--bs-success); }
+.stat-card.warning { border-left-color: var(--bs-warning); }
+.stat-card.info    { border-left-color: var(--bs-info); }
+.table thead th { white-space: nowrap; }
+.table td { vertical-align: middle; }
+.form-label { font-weight: 500; }
+.validator { font-size: .85rem; }
+.hero { background: linear-gradient(135deg, #212529 0%, #343a40 60%, #0d6efd 140%); }
